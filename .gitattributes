@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.asm text eol=lf
+*.inc text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.mp4 binary
+*.bin binary
+*.mdv binary
+*.qzt binary
+
+# Release payloads must retain the bytes covered by SHA256SUMS.txt.
+/release/v1.0.0/* -text

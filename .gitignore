@@ -1,0 +1,56 @@
+# Local builds, backups and archived development material
+/build/
+/output/
+/.work/
+/dist/
+/editor_examples/
+*.zip
+*.bak
+*.tmp
+*.log
+*.lst
+*.sha256
+
+# Python environments, caches and editor settings
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+.env
+.env.*
+/.local-build.json
+
+# Title/menu products are regenerated from the tracked PNG source files
+/assets/title/*.bin
+/assets/title/*.lz
+/assets/title/*.q8
+/assets/title/*.inc
+/assets/title/*-preview.png
+/assets/title/metadata.json
+/assets/title/music_metadata.json
+
+# These tables are emitted from the editable project and music sources
+/src/data/music_cup.inc
+/src/data/cup_sprites.inc
+/src/data/cup_resources.inc
+/src/data/cup_disk.inc
+
+# Player records belong to personal cartridges, not the source repository
+score_a
+score_b
+ghost[0-9]a
+ghost[0-9]b
+
+# Only the named v1 release is maintained in the repository
+/release/*
+!/release/v1.0.0/

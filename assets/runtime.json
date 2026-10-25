@@ -1,0 +1,259 @@
+{
+  "engine": "UNION20",
+  "courses": [
+    {
+      "name": "MUTE CITY",
+      "bytes": 11312,
+      "packed": 3507,
+      "width": 5.8,
+      "music": 0
+    },
+    {
+      "name": "RED CANYON",
+      "bytes": 11312,
+      "packed": 3753,
+      "width": 6.39,
+      "music": 2
+    },
+    {
+      "name": "BIG BLUE",
+      "bytes": 11312,
+      "packed": 4008,
+      "width": 4.95,
+      "music": 1
+    },
+    {
+      "name": "SECTOR ALPHA",
+      "bytes": 11312,
+      "packed": 4106,
+      "width": 5.8,
+      "music": 3
+    },
+    {
+      "name": "SAND OCEAN",
+      "bytes": 11312,
+      "packed": 4059,
+      "width": 5.6,
+      "music": 4
+    },
+    {
+      "name": "SILENCE",
+      "bytes": 11312,
+      "packed": 3826,
+      "width": 4.8,
+      "music": 5
+    }
+  ],
+  "image_bytes": 78662,
+  "compressed_image_bytes": 53672,
+  "image_base": 181888,
+  "image_end": 260550,
+  "stack_bottom": 261120,
+  "scene_buffer": [
+    163840,
+    170528
+  ],
+  "active_track_buffer": [
+    170528,
+    181840
+  ],
+  "qdos_allocation_bytes": 54722,
+  "native_format": "lossless format 6: full pitch, packed duration/effect with escape, bounded LZ with 512-byte history",
+  "scores": [
+    10,
+    7,
+    5
+  ],
+  "crash_game_over": false,
+  "gp_retire_zero_points": true,
+  "tiebreak": [
+    "wins",
+    "last race position"
+  ],
+  "reversed_last_race_grid": true,
+  "minimap": [
+    32,
+    24
+  ],
+  "npc_boost": true,
+  "music_render_checkpoints": true,
+  "directional_finish_line": true,
+  "finish_autopilot_ticks": 275,
+  "finish_camera_orbit": true,
+  "finish_motion": "centerline interpolation without racing collisions",
+  "player_views": 4,
+  "bounded_results": true,
+  "lap_times": true,
+  "lap_records": "per course and mode, persisted on MDV1",
+  "speed_display_max": 1490,
+  "lap_max_speeds": true,
+  "start_countdown_ticks": 150,
+  "go_banner_ticks": 35,
+  "title_tempo_clock": "temporary QDOS 50 Hz poll counter, absolute deadlines",
+  "speed_display_source": "integer ground velocity magnitude with downhill boost bonus",
+  "microdrive_payload_bytes": 112578,
+  "microdrive_allocated_bytes": 118784,
+  "microdrive_free_sectors": 21,
+  "microdrive_free_bytes": 10752,
+  "resident_margin_bytes": 570,
+  "compressed_loader_margin_bytes": 10824,
+  "bootstrap_decode": "backwards",
+  "bootstrap_min_unread_clearance": 50559,
+  "qdos_uses_during_race": 0,
+  "second_full_screen": false,
+  "player_jet_render": {
+    "jet_top": 16,
+    "boost_top": 14,
+    "normal_height": 18,
+    "boost_height": 24,
+    "phases": 2
+  },
+  "pause_key": "ESC",
+  "pause_phase": 11,
+  "pause_choices": [
+    "RESUME",
+    "QUIT"
+  ],
+  "pause_default": "RESUME",
+  "pause_music_continues": true,
+  "jet_animation": "one phase per displayed frame after at least 4 ticks; no skipped phases",
+  "menu_incremental_icons": true,
+  "menu_icon_scratch": "reuse 6048 bytes of racing scene",
+  "game_modes": [
+    "GP RACE",
+    "TIME ATTACK",
+    "PRACTICE",
+    "DEATH RACE"
+  ],
+  "spin_attack_key": "CTRL",
+  "spin_attack_ticks": 40,
+  "spin_attack_recovery_ticks": 60,
+  "spin_attack_tint": "red flash",
+  "spin_attack_controls": "normal auto-throttle, steering/brake/boost locked; inertia retained",
+  "destructible_rivals": true,
+  "stationary_collidable_wrecks": true,
+  "kill_stars": true,
+  "death_race_score": "elapsed 50 Hz ticks; lower is better",
+  "death_finish_autopilot_ticks": 275,
+  "death_finish_camera_orbit": true,
+  "cached_lossless_sprites": {
+    "raw": 10438,
+    "packed": 5666,
+    "scratch": 0,
+    "active_sprite_bytes": 2528,
+    "frames": 52,
+    "ghost_packed_bytes": 1038,
+    "ghost_palette": "white silhouette",
+    "encoding": "dictionary literals and 16-bit LZ matches",
+    "cache_entries_per_opponent": 2
+  },
+  "difficulties": [
+    "NOVICE",
+    "STANDARD",
+    "EXPERT",
+    "MASTER"
+  ],
+  "compressed_themes": true,
+  "temporary_menu_overlay": true,
+  "unified_illustrated_menu": true,
+  "title_waits_enter": true,
+  "microdrive_motors_stopped": true,
+  "difficulty_start_grid": true,
+  "menu_selection": "black checkerboard on unselected sprites",
+  "menu_keyrow": {
+    "left": 1,
+    "right": 4
+  },
+  "resident_title_music": true,
+  "music_banks": 8,
+  "music_history_bytes": 512,
+  "staggered_grid": true,
+  "cinematic_rivals": true,
+  "practice_unlimited_energy": true,
+  "solo_rivals": false,
+  "ghosts": true,
+  "ghost_key": "F4",
+  "ghost_default_visible": false,
+  "ghost_sample_bytes": 896,
+  "ghost_buffers_bytes": 1792,
+  "ghost_start": "standing grid start at GO; continuous three-lap clock",
+  "ghost_in_race_hint": false,
+  "ghost_hud_status": "GHOST: ON/OFF below mini-map, cached; F4 refreshes next frame",
+  "ghost_minimap": "cyan shared interpolated pose; magenta player on top",
+  "ghost_rear_warning": true,
+  "ghost_hud_extra_buffers": 0,
+  "view_distance_key": null,
+  "view_distances": [
+    32
+  ],
+  "view_default": 32,
+  "view_label": false,
+  "race_intro_orbit_ticks": 200,
+  "race_intro_countdown_ticks": 150,
+  "ghost_persistence": "best complete Time Attack race per course, two verified preallocated journals",
+  "ghost_file_version": 2,
+  "ghost_legacy_laps": "preserved on disk; not replayed as full races",
+  "ai_side_attack": "Standard retaliates; Expert/Master attack nearby, cooldown bounded",
+  "victory_ceremony": true,
+  "victory_ceremony_ticks": 1700,
+  "victory_ceremony_skippable": false,
+  "music_toggle_key": "F2",
+  "music_toggle_in_race": true,
+  "victory_parade_ticks": 1000,
+  "victory_podium_rise_ticks": 400,
+  "victory_podium_hold_ticks": 300,
+  "victory_panel_buffer": "reuse scene and active-track workspaces after parade",
+  "victory_music_bank": 7,
+  "minimap_finish_color": "green",
+  "rear_warning": "CHECK red/yellow, 10 Hz proximity, cached blink",
+  "resident_injection_available": false,
+  "injection_requires_microdrive": true,
+  "streamed_courses": true,
+  "image_file": "cup_image.bin",
+  "storage": {
+    "identity": 1245820252,
+    "course_files": [
+      3766,
+      4103,
+      4543,
+      4598,
+      4453,
+      4144
+    ],
+    "record_payload_bytes": 176,
+    "record_slots": [
+      "score_a",
+      "score_b"
+    ],
+    "ghost_slots": [
+      "ghost0a",
+      "ghost0b",
+      "ghost1a",
+      "ghost1b",
+      "ghost2a",
+      "ghost2b",
+      "ghost3a",
+      "ghost3b",
+      "ghost4a",
+      "ghost4b",
+      "ghost5a",
+      "ghost5b"
+    ],
+    "ghost_payload_bytes": 960,
+    "streaming": true,
+    "microdrive_drive": 1,
+    "rom_vectors": [
+      292,
+      294,
+      296,
+      298
+    ]
+  },
+  "score_persistence": "dual verified CRC32 journal in preallocated sectors",
+  "microdrive_runtime": {
+    "image_bytes": 78662,
+    "resident_margin_bytes": 570,
+    "streamed_courses": true,
+    "score_persistence": "dual verified CRC32 journal in preallocated sectors"
+  }
+}
